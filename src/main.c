@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <SDL2/SDL.h>
 
 int main(void) {
-    printf("Hello world!\n");
+    SDL_CreateWindow("Beak to Beak", 0, 0, 640, 480, SDL_WINDOW_RESIZABLE);
     return 0;
 }
